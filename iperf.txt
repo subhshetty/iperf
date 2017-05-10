@@ -1,0 +1,15 @@
+Iperf installed on client and server model
+- installed on both
+- TCP check
+  - server
+   iperf -s
+  - client
+   iperf -c <ip-address>
+- udp check
+  - server
+   iperf -s -u
+  - client
+   iperf -c <ip-address> -u
+- both way check
+  - in client
+   iperf -c <ip-address> -d
